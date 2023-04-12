@@ -12,8 +12,10 @@
   <title>Vue-Hello</title>
 </head>
 <body>
-  
-  <h1 id="app">{{message}} {{image}}</h1>
+  <div id="app">
+    <h1>{{message}}</h1>
+    <div :style = 'image'>{{image}}</div>
+  </div>
 
 
   <script src="js/script.js"></script>
